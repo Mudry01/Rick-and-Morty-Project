@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Creepster', 'Noto Sans Mono', 'Righteous';
+    padding: 20px;
+    
+  }
+  
+
+  
+  .title {
+    font-size: 36px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-weight: 300;
+  }
+  
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    justify-items: center;
+    transition: transform 0.5s;
+    border: 2px solid #248c44; /* Color del borde */
+    border-radius: 10px; /* Redondear las esquinas del borde */
+    padding: 20px; /* Espacio interno para separar el contenido del borde */
+    box-shadow: 0 0 10px rgba(36, 140, 68, 0.5); /* Sombra para dar un aspecto más llamativo */
+  }
+  .content:hover {
+    transform: scale(1.1);
+  }
+  
+  .leftcolumn,
+  .rightcolumn {
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    
+  }
+  
+  .leftcolumn {
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .rightcolumn {
+    margin-left: 20px;
+  }
+  
+  .characterImage {
+    border-radius: 50%;
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .characterStatus {
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .characterName {
+    font-size: 36px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .characterDetails {
+    margin-top: 20px;
+  }
+  
+  .characterDetails h3 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .characterDetails p {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  

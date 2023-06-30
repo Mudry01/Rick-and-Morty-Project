@@ -1,0 +1,39 @@
+.divBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.entrada {
+  margin-right: 10px;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  box-shadow: 0 0 5px green, 0 0 10px green, 0 0 20px green, 0 0 40px green;
+  width: 400px;
+}
+
+.boton{
+    border-radius: 10%;
+    color: white;
+    background: #4CAF50;
+    transition-duration: 0.4s;
+    font-family: 'Creepster', 'Noto Sans Mono', 'Righteous';
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.boton:hover {
+    background-color: white; /* Green */
+    color: #4CAF50;
+    box-shadow: 0 12px 16px 0 #00ff00, 0 17px 50px 0 #00ff00;
+    transition: 1s;
+}

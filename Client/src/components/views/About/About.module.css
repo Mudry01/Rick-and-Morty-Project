@@ -1,0 +1,90 @@
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 70px #00ff00;
+    display: flex;
+    align-items: center;
+    height: 500px;
+    border-radius: 10px;
+    font-family: 'Creepster', 'Noto Sans Mono', 'Righteous';
+    padding: 30px;
+    background: #0FA432;
+    background: -moz-radial-gradient(center, #0FA432 0%, #000000 100%);
+    background: -webkit-radial-gradient(center, #0FA432 0%, #000000 100%);
+    background: radial-gradient(ellipse at center, #0FA432 0%, #000000 100%);
+  }
+  
+.text {
+    flex: 1;
+    color: white;
+  }
+.image {
+    max-height: 300px;
+    flex: 0 0 auto;
+    margin-right: 20px;
+    position: relative;
+}
+.image img {
+    border: 2px solid #248c44;
+    border-radius: 10px;
+    max-height: 300px;
+}
+  
+.image:before {
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    right: -6px;
+    bottom: -6px;
+    border: 2px solid #248c44;
+    border-radius: 20px;
+}
+  .heading1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: 300;
+} 
+.heading2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+  
+.heading3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+  
+  .paragraph {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 300;
+  }
+  
+  .highlight {
+    font-weight: bold;
+  }
+  
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.listItem {
+    margin-bottom: 5px;
+}
+  
+.bold {
+    font-weight: bold;
+}
+  
+  .jobTitle {
+    background: #0FA432;
+    padding: 2px;
+    border-radius: 10%;
+    color: white;
+  }
+  

@@ -1,0 +1,74 @@
+/* COLORES
+.color1 { #a4cc54 }; 
+.color2 { #c8e098 };
+.color3 { #248c44 };
+.color4 { #5cac4c };
+.color5 { #26251c }; */
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  /* background: linear-gradient(45deg, #0c567d, #248c44, #000000); */
+  background: linear-gradient(45deg, #1b4f72, #248c44, #5792a3, #77a8b3);
+  background-size: 200% 200%;
+  animation: gradientAnimation 5s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes liftUp {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(-20px);
+    opacity: 1;
+  }
+}
+
+h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+h1 span {
+  margin-top: 20px;
+  font-family: 'Creepster', 'Noto Sans Mono', 'Righteous';
+  display: inline-block;
+  animation: liftUp 0.5s ease-out forwards;
+  margin-right: 8px;
+  margin-top: 80px;
+  font-size: 60px;
+  color: black;
+  text-shadow: 0 0 6px #7be07b, 0 0 10px #7be07b, 0 0 12px #7be07b, 0 0 14px #7be07b, 0 0 16px #7be07b;
+}
+
+h1 span {
+  display: inline-block;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h1 span {
+  animation-delay: var(--delay, 0s);
+}
+
+
